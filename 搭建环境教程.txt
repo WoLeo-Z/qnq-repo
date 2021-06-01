@@ -1,0 +1,20 @@
+运营环境
+php7.1
+MySQL 5.6
+
+数据库路径
+application/database.php
+
+运行目录
+public
+伪静态
+location / {
+	if (!-e $request_filename){
+		rewrite  ^(.*)$  /index.php?s=$1  last;   break;
+	}
+}
+
+后台地址：
+http://xxxx.域名/FRKToHDckx.php
+账号nk8686
+密码123456
