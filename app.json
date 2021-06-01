@@ -1,0 +1,7 @@
+{
+  "name": "QNQ 软件源",
+  "description": "Deploy QNQ-repo to heroku",
+  "website": "https://github.com/WoLeo-Z/qnq-repo",
+  "repository": "https://github.com/WoLeo-Z/qnq-repo",
+  "success_url": "/"
+}
